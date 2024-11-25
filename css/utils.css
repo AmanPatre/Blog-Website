@@ -1,0 +1,47 @@
+:root{
+    --main-bg-color:rgb(92, 154, 252);
+    --font2:"Roboto";
+    --font1:'Ubuntu';
+}
+.max-width1{
+    max-width: 70vw;
+}
+.max-width2{
+    max-width: 50vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+.btn{
+    padding: 5px 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: var(--font2);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+}
+.btn:hover{
+    background-color: var(--main-bg-color);
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+.form-input{
+    padding: 3px 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 4px;
+    font-family: var(--font1)
+
+}
+
+.font1{
+    font-family: var(--font1);
+
+}
+.font2{
+    font-family: var(--font2);
+
+}
